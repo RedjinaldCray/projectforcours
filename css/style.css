@@ -49,6 +49,11 @@ html, body {
 	position: relative;
 }
 
+#logo:hover {
+	margin-top: -3px;
+  	transition: 0.1s linear; /* Скорость увелечения блока */
+}
+
 .logo {
 	width: 140px;
 	height: 120px;
