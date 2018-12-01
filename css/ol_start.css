@@ -1,0 +1,119 @@
+body {
+	display: block;
+	margin: 0;
+	font-family: Calibri;
+}
+
+p {
+	margin: 0;
+	text-decoration: none;
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h4 {
+	margin: 0;
+	text-decoration: none;
+	user-select: none;	
+}
+
+html, body {
+	height: auto;
+}
+
+#header {
+	width: 100%;
+	height: 120px;
+	background: #3a3a3a;
+	
+}
+
+#header div {
+	display: inline;
+}
+
+#main {
+	height: auto;
+	width: 100%;
+	background: #8c7878;
+	border-top: 3	px solid 8c7878;
+	display: inline-block;
+}
+
+#logo {
+	width: 100px;
+	height: 90px;
+	left: 12px;
+	top: 13px;
+	position: relative;
+}
+
+#logo:hover {
+	margin-top: -3px;
+  	transition: 0.1s linear; /* Скорость увелечения блока */
+}
+
+.logo {
+	width: 140px;
+	height: 120px;
+}
+
+.name_sait {
+	width: 600px;
+	height: 120px;
+	color: white;
+	float: right;
+}
+
+.name_sait p {
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.name_sait h4 {
+	margin-left: 1px;
+}
+
+.table_of_content {
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	margin-bottom: 5px;
+}
+
+#table_of_content {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+
+#content {
+	width: 100%;	
+	font-size: 20px;
+	color: white;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background: #8c7878;
+	border-top: 1px solid white;
+}
+
+.footer p {
+	margin: 14px;
+
+}
+
+#back {
+	float: left;
+}
+
+#go {
+	float: right;
+}
